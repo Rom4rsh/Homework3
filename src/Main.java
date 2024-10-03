@@ -21,9 +21,9 @@ public class Main {
 
         // Задача №2
 
-        float t = 27.12F;
+        float t = 27.12f;
         long n = 987678965549L;
-        float u = 2.786F;
+        float u = 2.786f;
         short w = 569;
         short q = -159;
         short y = 27897;
