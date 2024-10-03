@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Значение переменной b с типом byte равно " + b);
         short c = -20000;
         System.out.println("Значение переменной c с типом short равно " + c);
-        long d = 400000000;
+        long d = 400000000L;
         System.out.println("Значение переменной d с типом long равно " + d);
         double e = 1.234;
         System.out.println("Значение переменной e с типом double равно " + e);
@@ -94,8 +94,8 @@ public class Main {
         int denisSalary = 83690;
         int kristinaSalary = 76230;
         int mothOfYear = 12;
-        float mashaSalaryUp = (float) mashaSalary / 100 * 10;
-        float denisSalaryUp = (float) denisSalary / 100 * 10;
+        float mashaSalaryUp =  (float) mashaSalary / 100 * 10;
+        float denisSalaryUp =  (float) denisSalary / 100 * 10;
         float kristinaSalaryUp = (float) kristinaSalary / 100 * 10;
         float mashaNewMothSalary = mashaSalaryUp + mashaSalary;
         float denisNewMothSalary = denisSalaryUp + denisSalary;
